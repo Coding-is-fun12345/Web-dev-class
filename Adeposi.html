@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All about Adeposi Olagunju</title>
+    <style>
+        body {background-color: rgb(255, 255, 255);}
+        h1  {color:rgb(0, 0, 0)}
+        h2  {color:rgb(0, 0, 0)}
+        h3  {color:rgb(0, 0, 0)}
+        h4  {color:rgb(0, 0, 0)}
+        h5  {color:rgb(0, 0, 0)}
+        h6  {color:rgb(0, 0, 0)}
+        p   {color:rgb(0, 0, 0)}
+        li  {color:rgb(0, 0, 0)}
+       
+        table, th, td {
+  border: 1px solid rgb(255, 255, 255);
+border-radius: 1px;}
+
+        </style>
+</head>
+<body>
+    <p><a href="Ourwork.html">Go to our presentation website</a></p>
+    
+
+    <canvas id="myCanvas" width="300" height="75" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML canvas tag.</canvas>
+        
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.shadowColor = "rgb(190, 190, 190)";
+            ctx.shadowOffsetX = 10;
+            ctx.shadowOffsetY = 10;
+            ctx.shadowBlur = 10;
+            ctx.font = "20px Arial";
+           
+            
+            // Create gradient
+            var grd = ctx.createLinearGradient(0, 0, 150, 100);
+            grd.addColorStop(0, "rgb(221, 0, 228)");
+            grd.addColorStop(1, "rgb(143, 255, 0)");
+    
+            
+            // Fill with gradient
+            ctx.fillStyle = grd;
+            ctx.fillText("My name is Adeposi Olagunju", 10, 50 );
+            </script>
+    
+    <h2>I am 10 years old</h2>
+    <h3>I am from Nigeria</h3>
+    <h4>My brothers name is <strong>Ademidun</strong></h4>
+    <h5>Our school is called St woolos primary school</h5>
+    <h6 title="Adeposi">I am in Year 6<sup>AP</sup></h6>
+    <p><a href="Ademidun.html">This is my brothers website.</a></p>
+    <img src="20230901_140624 - Copy.jpg" alt="Adeposi Olagunju" width="250" height="310">  
+    <ul>
+        <li>My Favourite food is <em>Jollof rice</em></li>
+        <li>My favourite series is Hunter street</li>
+        <li>My best friends are <strong>Leo</strong>,<strong>Thomas</strong> and <strong>David</strong></li>
+        <li>My teacher is Mrs Parry</li>
+        <li>Ademidun is 8 years old</li>
+        <li>He is in Year 4<sup>D</sup></li>
+    </ul>
+    </body>
+</html>
