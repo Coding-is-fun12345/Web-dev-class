@@ -22,15 +22,22 @@ body {
   
   .dark {
     padding: 15px;
-    background: #024771;
+    background: #0011ff;
     color: #ffffff;
     margin: 10px 0;
   }
   
   .dark2 {
     padding: 15px;
-    background: #0b9b36;
-    color: #ffffff;
+    background: #c90000;
+    color: #000000;
+    margin: 10px 0;
+   }
+
+   .dark3 {
+    padding: 15px;
+    background: #009dffcf;
+    color: #ffffffff;
     margin: 10px 0;
    }
 
@@ -80,7 +87,7 @@ header a:hover {
 
 #showcase {
     min-height: 400px;
-    background: url("http://127.0.0.1:5500/image/20230901_140517.jpg")
+    background: url('http://127.0.0.1:5500/image/20230901_140517.jpg')
     no-repeat 0 50%;
     text-align: center;
     color: #f4f4f4;
